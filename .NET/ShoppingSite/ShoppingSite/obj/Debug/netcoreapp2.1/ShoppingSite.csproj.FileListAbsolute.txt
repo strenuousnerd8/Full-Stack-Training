@@ -1,0 +1,16 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\bin\Debug\netcoreapp2.1\ShoppingSite.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\bin\Debug\netcoreapp2.1\ShoppingSite.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\bin\Debug\netcoreapp2.1\ShoppingSite.runtimeconfig.dev.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\bin\Debug\netcoreapp2.1\ShoppingSite.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\bin\Debug\netcoreapp2.1\ShoppingSite.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.RazorAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.RazorAssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.RazorTargetAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSite\ShoppingSite\obj\Debug\netcoreapp2.1\ShoppingSite.genruntimeconfig.cache
