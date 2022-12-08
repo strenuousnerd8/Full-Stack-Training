@@ -5,7 +5,6 @@ namespace ShoppingSite
     public class HomeController : Controller
     {
         public Product prod = new Product();
-        public Inventory invent = new Inventory();
         public OrderProcessing op = new OrderProcessing();
         public Shipping ship = new Shipping();
         public Billing bill = new Billing();
@@ -19,11 +18,6 @@ namespace ShoppingSite
         public string GetProd()
         {
             return prod.productPage();
-        }
-        [Route("Home/inventory")]
-        public string GetInvent()
-        {
-            return invent.inventoryGreet();
         }
         [Route("Home/processing")]
         public string GetOP()

@@ -1,0 +1,16 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\bin\Debug\netcoreapp2.1\ShoppingSiteFragment.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\bin\Debug\netcoreapp2.1\ShoppingSiteFragment.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\bin\Debug\netcoreapp2.1\ShoppingSiteFragment.runtimeconfig.dev.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\bin\Debug\netcoreapp2.1\ShoppingSiteFragment.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\bin\Debug\netcoreapp2.1\ShoppingSiteFragment.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.RazorAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.RazorAssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.RazorTargetAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ShoppingSiteFragment\ShoppingSiteFragment\obj\Debug\netcoreapp2.1\ShoppingSiteFragment.genruntimeconfig.cache
