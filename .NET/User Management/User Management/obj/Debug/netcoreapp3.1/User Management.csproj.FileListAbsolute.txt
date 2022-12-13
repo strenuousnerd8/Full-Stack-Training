@@ -1,0 +1,31 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.runtimeconfig.dev.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\User Management.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\Consul.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\User Management.StaticWebAssets.Manifest.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\User Management.StaticWebAssets.Pack.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.User Management.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.User Management.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.User Management.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.User Management.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.RazorTargetAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\User Management\User Management\obj\Debug\netcoreapp3.1\User Management.genruntimeconfig.cache

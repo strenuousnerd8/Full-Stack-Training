@@ -1,0 +1,34 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\appsettings.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Service Discovery.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Service Discovery.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Service Discovery.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Service Discovery.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Service Discovery.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Consul.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets\msbuild.Service Discovery.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets\msbuild.build.Service Discovery.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Service Discovery.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Service Discovery.props
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\scopedcss\bundle\Service Discovery.styles.css
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\refint\Service Discovery.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\Service Discovery.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Service Discovery\Service Discovery\obj\Debug\net6.0\ref\Service Discovery.dll

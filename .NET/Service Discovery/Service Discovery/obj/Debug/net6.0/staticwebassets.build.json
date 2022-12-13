@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Me6FpDVRSGK0WUbNz4qjS2tOL5UPOe9m4c8tTQWhCzE=",
+  "Source": "Service Discovery",
+  "BasePath": "_content/Service Discovery",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
