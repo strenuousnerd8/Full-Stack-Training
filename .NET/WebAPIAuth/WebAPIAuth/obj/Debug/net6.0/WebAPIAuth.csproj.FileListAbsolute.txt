@@ -35,3 +35,10 @@ C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\b
 C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Scrutor.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\WebAPIAuth\WebAPIAuth\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

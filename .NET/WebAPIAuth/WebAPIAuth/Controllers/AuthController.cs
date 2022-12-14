@@ -42,6 +42,25 @@ namespace WebAPIAuth.Controllers
             }
         }
 
+        [HttpPost("refresh-token")]
+        public async Task<ActionResult<string>> RefreshToekn()
+        {
+            var refreshToekn = Request.Cookies["refreshToekn"];
+            if (!user.RefreshToken.Equals(refreshToekn))
+            {
+                return Unauthorized("Invalid Refresh Token");
+            }
+            else if (user.TokenExpires < DateTime.Now)
+            {
+                return Unauthorized("Token Expired");
+            }
+            string token = CreateToken(user);
+            var newRefreshToekn = GenerateRefreshToken();
+            SetRefreshToken(newRefreshToekn);
+
+            return Ok(token);
+        }
+
         [HttpPost("login")]
         public async Task<ActionResult<string>> Login(UserDto request)
         {
@@ -55,8 +74,38 @@ namespace WebAPIAuth.Controllers
             }
 
             string token = CreateToken(user);
+
+            var refreshToken = GenerateRefreshToken();
+            SetRefreshToken(refreshToken);
+
             return Ok(token);
 ;        }
+
+        private RefreshToekn GenerateRefreshToken()
+        {
+            var refreshToekn = new RefreshToekn
+            {
+                Token = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
+                Created = DateTime.Now,
+                Expires = DateTime.Now.AddDays(2)
+            };
+            return refreshToekn;
+        }
+
+        private void SetRefreshToken(RefreshToekn newRefreshToken)
+        {
+            var cookiesOptions = new CookieOptions
+            {
+                HttpOnly = true,
+                Expires = newRefreshToken.Expires,
+            };
+
+            Response.Cookies.Append("refreshToekn", newRefreshToken.Token, cookiesOptions);
+
+            user.RefreshToken = newRefreshToken.Token;
+            user.TokenCreated = newRefreshToken.Created;
+            user.TokenExpires = newRefreshToken.Expires;
+        }
 
         private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
         {
@@ -81,8 +130,7 @@ namespace WebAPIAuth.Controllers
 
             var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddDays(1)
-                ,
+                expires: DateTime.Now.AddDays(1),
                 signingCredentials: creds
             );
 
