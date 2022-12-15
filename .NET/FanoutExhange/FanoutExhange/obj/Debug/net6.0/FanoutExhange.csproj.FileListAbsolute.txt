@@ -1,0 +1,17 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\FanoutExhange.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\FanoutExhange.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\FanoutExhange.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\FanoutExhange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\FanoutExhange.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\refint\FanoutExhange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\FanoutExhange.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\FanoutExhange\FanoutExhange\obj\Debug\net6.0\ref\FanoutExhange.dll

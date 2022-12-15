@@ -1,0 +1,18 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Direct Producer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Direct Producer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Direct Producer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Direct Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Direct Producer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\refint\Direct Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\Direct Producer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Producer\Direct Producer\obj\Debug\net6.0\ref\Direct Producer.dll

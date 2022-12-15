@@ -1,0 +1,17 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\Direct Consumer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\Direct Consumer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\Direct Consumer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\Direct Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\Direct Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\refint\Direct Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\Direct Consumer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Direct Consumer\Direct Consumer\obj\Debug\net6.0\ref\Direct Consumer.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4kCOigI+Smbw6N8aU1AzeQ30q1+cMc/FC/+kIs7srnMcFEtv859ZXGsKbVdajAF5WrUuOqzauEtIU/4SRHHFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faizahamed.Akkiwat\\Documents\\Training\\Code\\.NET\\Direct Consumer 2\\Direct Consumer 2\\Direct Consumer 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5yYin7NtwLhW3vYjQc0F4PUrSquttkHbtZx3YJ/Dh44cUqCFe7ZLTMU2ZqHuvwUTX/1zZPTQkuwoJqBUizG4Pw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faizahamed.Akkiwat\\Documents\\Training\\Code\\.NET\\Direct Producer\\Direct Producer\\Direct Producer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

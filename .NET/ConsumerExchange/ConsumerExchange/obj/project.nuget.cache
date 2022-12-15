@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sK75q4HUiyw3hst5MtbUuMBuGB3VHKifbh0JosmJqX6WY3yHTo4acJcBNwnc3iKdoVi7T/9Z+nMz0KiTS+6xdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faizahamed.Akkiwat\\Documents\\Training\\Code\\.NET\\ConsumerExchange\\ConsumerExchange\\ConsumerExchange.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

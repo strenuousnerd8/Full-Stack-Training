@@ -1,0 +1,17 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\ConsumerExchange.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\ConsumerExchange.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\ConsumerExchange.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\ConsumerExchange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\ConsumerExchange.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\refint\ConsumerExchange.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ConsumerExchange.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\ConsumerExchange\ConsumerExchange\obj\Debug\net6.0\ref\ConsumerExchange.dll

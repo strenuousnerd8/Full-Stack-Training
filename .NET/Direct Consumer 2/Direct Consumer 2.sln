@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct Consumer 2", "Direct Consumer 2\Direct Consumer 2.csproj", "{4C81EAEA-2860-4445-AC54-D3BA9F4B856F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C81EAEA-2860-4445-AC54-D3BA9F4B856F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C81EAEA-2860-4445-AC54-D3BA9F4B856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C81EAEA-2860-4445-AC54-D3BA9F4B856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C81EAEA-2860-4445-AC54-D3BA9F4B856F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A8F6A26-41DA-4A8B-964C-697757D2EE58}
+	EndGlobalSection
+EndGlobal
