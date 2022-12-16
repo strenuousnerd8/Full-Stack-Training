@@ -1,10 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RabbitMQ.Client;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Direct_Producer
 {
@@ -18,10 +14,11 @@ namespace Direct_Producer
             };
             channel.ExchangeDeclare("DirectEx", ExchangeType.Direct, arguments: ttl);
             var count = 0;
-
+            Console.Write("Enter your name:\t");
+            string name = Console.ReadLine();
             while (true)
             {
-                var message = new { Name = "Producer", Message = $"Hello! Count: {count}" };
+                var message = new { Name = "Producer", Message = $"Hello! {name} Count: {count}" };
                 var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
 
                 channel.BasicPublish("DirectEx", "account.init", null, body);
