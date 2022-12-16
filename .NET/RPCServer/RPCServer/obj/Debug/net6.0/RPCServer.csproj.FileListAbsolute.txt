@@ -1,0 +1,17 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RPCServer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RPCServer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RPCServer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RPCServer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RPCServer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\refint\RPCServer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\RPCServer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCServer\RPCServer\obj\Debug\net6.0\ref\RPCServer.dll

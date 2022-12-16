@@ -1,0 +1,17 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RPCClient.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RPCClient.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RPCClient.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RPCClient.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RPCClient.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\refint\RPCClient.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\RPCClient.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\RPCClient\RPCClient\obj\Debug\net6.0\ref\RPCClient.dll

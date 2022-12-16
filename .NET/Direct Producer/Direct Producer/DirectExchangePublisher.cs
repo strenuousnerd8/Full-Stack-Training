@@ -15,7 +15,7 @@ namespace Direct_Producer
             channel.ExchangeDeclare("DirectEx", ExchangeType.Direct, arguments: ttl);
             var count = 0;
             Console.Write("Enter your name:\t");
-            string name = Console.ReadLine();
+            string? name = Console.ReadLine();
             while (true)
             {
                 var message = new { Name = "Producer", Message = $"Hello! {name} Count: {count}" };

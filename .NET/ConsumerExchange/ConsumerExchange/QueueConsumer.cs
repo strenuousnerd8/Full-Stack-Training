@@ -1,10 +1,6 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsumerExchange
 {
@@ -15,18 +11,16 @@ namespace ConsumerExchange
             channel.QueueDeclare("QueueAL", durable: true, exclusive: false, autoDelete: false, arguments: null);
 
             var consumer = new EventingBasicConsumer(channel);
+            var message = string.Empty;
             consumer.Received += (sender, e) =>
             {
                 var body = e.Body.ToArray();
-                var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine(message);
+                message = Encoding.UTF8.GetString(body);
+                Console.WriteLine("got " + message);
             };
 
             channel.BasicConsume("QueueAL", true, consumer);
             Console.WriteLine("Consumer started");
-
-            Console.ReadLine();
-            Console.ReadLine();
         }
     }
 }
