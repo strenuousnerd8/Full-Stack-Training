@@ -4,8 +4,11 @@ Console.WriteLine("Hello, World!");
 
 var rpcClient = new RpcClient();
 
-Console.WriteLine("[x] Requesting fib(10)");
-var response = rpcClient.Call("3");
+Console.Write("Enter nth integer of the fibonacci:\t");
+string? n = Console.ReadLine();
+
+Console.WriteLine($"[x] Requesting fib({n})");
+var response = rpcClient.Call(n);
 
 Console.WriteLine("[.] Got {0}", response);
 rpcClient.Close();

@@ -32,7 +32,7 @@ namespace RPCServerEx
                         var message = Encoding.UTF8.GetString(body);
                         int n = int.Parse(message);
                         Console.WriteLine("[.] fib({0})", message);
-                        response = fib2(n).ToString();
+                        response = fib(n).ToString();
                         Console.WriteLine("1111");
                     } catch (Exception e) {
                         Console.WriteLine("222");
@@ -64,9 +64,12 @@ namespace RPCServerEx
             return fib(n - 1) + fib(n - 2);
         }
 
+        /*
         private static int fib2(int n)
         {
             return 200;
         }
+        */
+
     }
 }
