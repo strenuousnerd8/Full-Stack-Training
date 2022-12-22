@@ -24,8 +24,8 @@ namespace Service_Discovery.Config
 
             var registration = new AgentServiceRegistration()
             {
-                ID = "ServiceDiscovery",
-                Name = "Service Discovery",
+                ID = "ApiGateway",
+                Name = "Api Gateway",
                 Address = "localhost",
                 Port = 60000
             };

@@ -1,0 +1,34 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\refint\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer\Fanout Consumer\obj\Debug\net6.0\ref\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\Fanout Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\refint\Fanout Consumer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\Fanout Consumer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Consumer 2\Fanout Consumer\obj\Debug\net6.0\ref\Fanout Consumer.dll

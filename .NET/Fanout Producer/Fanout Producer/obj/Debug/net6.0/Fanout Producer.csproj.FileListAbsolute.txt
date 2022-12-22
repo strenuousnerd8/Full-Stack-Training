@@ -1,0 +1,18 @@
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Fanout Producer.exe
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Fanout Producer.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Fanout Producer.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Fanout Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Fanout Producer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.csproj.CopyComplete
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\refint\Fanout Producer.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\Fanout Producer.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\Fanout Producer\Fanout Producer\obj\Debug\net6.0\ref\Fanout Producer.dll

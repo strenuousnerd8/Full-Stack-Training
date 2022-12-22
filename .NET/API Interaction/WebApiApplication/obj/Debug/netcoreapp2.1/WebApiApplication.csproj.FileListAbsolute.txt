@@ -1,0 +1,36 @@
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.deps.json
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.runtimeconfig.json
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.runtimeconfig.dev.json
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.dll
+C:\Dotnet\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.pdb
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.csproj.AssemblyReference.cache
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.AssemblyInfoInputs.cache
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.AssemblyInfo.cs
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.csproj.CoreCompileInputs.cache
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorAssemblyInfo.cache
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorAssemblyInfo.cs
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorTargetAssemblyInfo.cache
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.dll
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.pdb
+C:\Dotnet\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.runtimeconfig.dev.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\bin\Debug\netcoreapp2.1\WebApiApplication.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorAssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.RazorTargetAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\WebApiApplication\obj\Debug\netcoreapp2.1\WebApiApplication.genruntimeconfig.cache

@@ -1,0 +1,36 @@
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.deps.json
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.runtimeconfig.json
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.runtimeconfig.dev.json
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.dll
+C:\Dotnet\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.pdb
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.csproj.AssemblyReference.cache
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.AssemblyInfoInputs.cache
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.AssemblyInfo.cs
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.csproj.CoreCompileInputs.cache
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorAssemblyInfo.cache
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorAssemblyInfo.cs
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorTargetAssemblyInfo.cache
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.dll
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.pdb
+C:\Dotnet\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.genruntimeconfig.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.deps.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.runtimeconfig.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.runtimeconfig.dev.json
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\bin\Debug\netcoreapp2.1\Polly.web.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.csproj.AssemblyReference.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.AssemblyInfoInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.AssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.csproj.CoreCompileInputs.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorAssemblyInfo.cs
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.RazorTargetAssemblyInfo.cache
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.dll
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.pdb
+C:\Users\Faizahamed.Akkiwat\Documents\Training\Code\.NET\API Interaction\Polly.web\obj\Debug\netcoreapp2.1\Polly.web.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ed2d2PUDTVJ8yz7m1mehrsRkpSFsyOFPVOoC34agb9TbSPTXiv9wgBkVbGfgc+3ccmB97+ldj8ZQz8VQVA3Fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faizahamed.Akkiwat\\Documents\\Training\\Code\\.NET\\Fanout Consumer\\Fanout Consumer\\Fanout Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Faizahamed.Akkiwat\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
