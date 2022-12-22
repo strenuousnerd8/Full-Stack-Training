@@ -1,3 +1,4 @@
+using System;
 interface Product
 {
 
@@ -24,7 +25,7 @@ class ConcreteCreator : Creator
         {
             case "A": return new ConcreteProductA();
             case "B": return new ConcreteProductB();
-            default: throw new ArgumentException("Invalid type", "type");
+            //default: throw new ArgumentException("Invalid type", "type");
         }
     }
 }

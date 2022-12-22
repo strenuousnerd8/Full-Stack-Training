@@ -56,8 +56,6 @@ namespace Factory
 
             IFactory bike = factory.GetVehicle("Bike");
             bike.Drive(20);
-
-            Console.ReadKey();
         }
     }
 }
