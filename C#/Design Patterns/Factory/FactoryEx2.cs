@@ -1,11 +1,17 @@
 using System;
 namespace Factory
 {
+    /// <summary>
+    /// The 'Product' interface
+    /// </summary>
     public interface IFactory
     {
         void Drive(int miles);
     }
 
+    /// <summary>
+    /// A 'ConcreteProduct' class
+    /// </summary>
     public class Scooter : IFactory
     {
         public void Drive(int miles)
@@ -14,6 +20,9 @@ namespace Factory
         }
     }
 
+    /// <summary>
+    /// A 'ConcreteProduct' class
+    /// </summary>
     public class Bike : IFactory
     {
         public void Drive(int miles)
@@ -22,12 +31,18 @@ namespace Factory
         }
     }
 
+    /// <summary>
+    /// The Creator Abstract Class
+    /// </summary>
     public abstract class VehicleFactory
     {
         public abstract IFactory GetVehicle(string Vehicle);
 
     }
 
+    /// <summary>
+    /// A 'ConcreteCreator' class
+    /// </summary>
     public class ConcreteVehicleFactory : VehicleFactory
     {
         public override IFactory GetVehicle(string Vehicle)
@@ -45,6 +60,9 @@ namespace Factory
 
     }
 
+    /// <summary>
+    /// Factory Pattern Demo
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -56,6 +74,9 @@ namespace Factory
 
             IFactory bike = factory.GetVehicle("Bike");
             bike.Drive(20);
+
+            Console.ReadKey();
+
         }
     }
 }
