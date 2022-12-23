@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+
 /// <summary>
 /// The 'Builder' interface
 /// </summary>
+
 public interface IVehicleBuilder
 {
     void SetModel();
@@ -10,13 +12,13 @@ public interface IVehicleBuilder
     void SetTransmission();
     void SetBody();
     void SetAccessories();
-
     Vehicle GetVehicle();
 }
 
 /// <summary>
 /// The 'ConcreteBuilder1' class
 /// </summary>
+
 public class HeroBuilder : IVehicleBuilder
 {
     Vehicle objVehicle = new Vehicle();
@@ -55,6 +57,7 @@ public class HeroBuilder : IVehicleBuilder
 /// <summary>
 /// The 'ConcreteBuilder2' class
 /// </summary>
+
 public class HondaBuilder : IVehicleBuilder
 {
     Vehicle objVehicle = new Vehicle();
@@ -94,6 +97,7 @@ public class HondaBuilder : IVehicleBuilder
 /// <summary>
 /// The 'Product' class
 /// </summary>
+
 public class Vehicle
 {
     public string Model { get; set; }
@@ -124,6 +128,7 @@ public class Vehicle
 /// <summary>
 /// The 'Director' class
 /// </summary>
+
 public class VehicleCreator
 {
     private readonly IVehicleBuilder objBuilder;
@@ -151,6 +156,7 @@ public class VehicleCreator
 /// <summary>
 /// Builder Design Pattern Demo
 /// </summary>
+
 class Program
 {
     static void Main(string[] args)
