@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Design Patterns"
+    "\\Design Patterns",
+    "\\Design Patterns\\Factory"
   ],
   "SelectedNode": "\\Main.cs",
   "PreviewInSolutionExplorer": false

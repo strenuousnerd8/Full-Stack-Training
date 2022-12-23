@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace DoFactory.GangOfFour.Abstract.RealWorld
 {
