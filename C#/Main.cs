@@ -6,11 +6,13 @@ namespace PrototypeExample
         public static void Main(string[] args)
         {
             Man m1 = new Man("Rony");
-            Man m2 = (Man)m1.Clone();
-            Console.WriteLine($"Cloned: {m1.Name}");
+            Man m2 = (Man)m1.Duplicate();
+            Console.WriteLine($"Original: {m1.Name}");
+            Console.WriteLine($"Duplicated: {m2.Name}");
             Woman w1 = new Woman("Monica");
-            Woman w2 = (Woman)w1.Clone();
-            Console.WriteLine($"Cloned: {w1.Name}");
+            Woman w2 = (Woman)w1.Duplicate();
+            Console.WriteLine($"Original: {w1.Name}");
+            Console.WriteLine($"Duplicated: {w2.Name}");
         }
     }
 
@@ -25,7 +27,7 @@ namespace PrototypeExample
         {
             get { return name; }
         }
-        public abstract Person Clone();
+        public abstract Person Duplicate();
     }
 
     public class Man : Person
@@ -34,7 +36,7 @@ namespace PrototypeExample
             : base(name)
         {
         }
-        public override Person Clone()
+        public override Person Duplicate()
         {
             return (Person)this.MemberwiseClone();
         }
@@ -46,7 +48,7 @@ namespace PrototypeExample
             : base(name)
         {
         }
-        public override Person Clone()
+        public override Person Duplicate()
         {
             return (Person)this.MemberwiseClone();
         }

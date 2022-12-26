@@ -5,50 +5,50 @@ namespace PrototypeExample
     {
         public static void Main(string[] args)
         {
-            ConcretePrototype1 p1 = new ConcretePrototype1("I");
-            ConcretePrototype1 c1 = (ConcretePrototype1)p1.Clone();
-            Console.WriteLine("Cloned: {0}", c1.Id);
-            ConcretePrototype2 p2 = new ConcretePrototype2("II");
-            ConcretePrototype2 c2 = (ConcretePrototype2)p2.Clone();
-            Console.WriteLine("Cloned: {0}", c2.Id);
+            Man m1 = new Man("Rony");
+            Man m2 = (Man)m1.Clone();
+            Console.WriteLine($"Cloned: {m1.Name}");
+            Woman w1 = new Woman("Monica");
+            Woman w2 = (Woman)w1.Clone();
+            Console.WriteLine($"Cloned: {w1.Name}");
         }
     }
 
-    public abstract class Prototype
+    public abstract class Person
     {
-        string id;
-        public Prototype(string id)
+        string name;
+        public Person(string name)
         {
-            this.id = id;
+            this.name = name;
         }
-        public string Id
+        public string Name
         {
-            get { return id; }
+            get { return name; }
         }
-        public abstract Prototype Clone();
+        public abstract Person Clone();
     }
 
-    public class ConcretePrototype1 : Prototype
+    public class Man : Person
     {
-        public ConcretePrototype1(string id)
-            : base(id)
+        public Man(string name)
+            : base(name)
         {
         }
-        public override Prototype Clone()
+        public override Person Clone()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (Person)this.MemberwiseClone();
         }
     }
 
-    public class ConcretePrototype2 : Prototype
+    public class Woman : Person
     {
-        public ConcretePrototype2(string id)
-            : base(id)
+        public Woman(string name)
+            : base(name)
         {
         }
-        public override Prototype Clone()
+        public override Person Clone()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (Person)this.MemberwiseClone();
         }
     }
 }
