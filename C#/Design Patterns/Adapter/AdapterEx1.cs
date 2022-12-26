@@ -1,38 +1,38 @@
 using System;
 namespace AdapterExample
 {
+    public class Provider
+    {
+        public void Interpret()
+        {
+            Console.WriteLine("Provider gets JSON");
+        }
+    }
+
+    public class Client
+    {
+        public virtual void Send()
+        {
+            Console.WriteLine("Client sends XML");
+        }
+    }
+
+    public class Translator : Client
+    {
+        private Provider provider = new Provider();
+
+        public override void Send()
+        {
+            provider.Interpret();
+        }
+    }
+
     public class Program
     {
         public static void Main(string[] args)
         {
-            // Create adapter and place a request
-            Target target = new Adapter();
-            target.Request();
-        }
-    }
-
-    public class Target
-    {
-        public virtual void Request()
-        {
-            Console.WriteLine("Called Target Request()");
-        }
-    }
-
-    public class Adapter : Target
-    {
-        private Adaptee adaptee = new Adaptee();
-
-        public override void Request()
-        {
-            adaptee.SpecificRequest();
-        }
-    }
-    public class Adaptee
-    {
-        public void SpecificRequest()
-        {
-            Console.WriteLine("Called SpecificRequest()");
+            Client client = new Translator();
+            client.Send();
         }
     }
 }

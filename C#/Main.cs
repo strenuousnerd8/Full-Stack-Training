@@ -5,7 +5,7 @@ namespace AdapterExample
     {
         public void Interpret()
         {
-            Console.WriteLine("Provider Console");
+            Console.WriteLine("Provider gets JSON");
         }
     }
 
@@ -13,11 +13,11 @@ namespace AdapterExample
     {
         public virtual void Send()
         {
-            Console.WriteLine("Client console");
+            Console.WriteLine("Client sends XML");
         }
     }
 
-    public class Agent : Client
+    public class Translator : Client
     {
         private Provider provider = new Provider();
 
@@ -31,7 +31,7 @@ namespace AdapterExample
     {
         public static void Main(string[] args)
         {
-            Client client = new Agent();
+            Client client = new Translator();
             client.Send();
         }
     }
