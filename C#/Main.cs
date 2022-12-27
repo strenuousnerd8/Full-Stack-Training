@@ -67,6 +67,7 @@ namespace ObserverExample
             public static void Main(string[] args)
             {
                 ConcreteObservable s = new ConcreteObservable();
+                
                 ConcreteObserver a = new ConcreteObserver(s, "Observer 1");
                 ConcreteObserver b = new ConcreteObserver(s, "Observer 2");
                 ConcreteObserver c = new ConcreteObserver(s, "Observer 3");
