@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Assignment
 {
     // Client
@@ -7,7 +7,8 @@ namespace Assignment
         public static void Main(string[] args)
         {
             T target = new A();
-            target.fn1();
+            target.Request();
+            Console.ReadKey();
         }
     }
 
@@ -23,7 +24,7 @@ namespace Assignment
     // Adapter
     public class A : T
     {
-        private Ad adaptee = new Ad();
+        private Ad adaptee = new Adaptee();
         public override void fn1()
         {
             adaptee.fn2();

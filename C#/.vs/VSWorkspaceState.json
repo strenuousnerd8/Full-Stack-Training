@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Design Patterns",
-    "\\Design Patterns\\Abstract Factory",
-    "\\Design Patterns\\Factory"
+    "\\Design Patterns\\Builder"
   ],
-  "SelectedNode": "\\Main.cs",
+  "SelectedNode": "\\Design Patterns\\Builder\\BuilderEx2.cs",
   "PreviewInSolutionExplorer": false
 }
