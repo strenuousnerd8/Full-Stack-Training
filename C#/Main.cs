@@ -1,41 +1,85 @@
 ﻿using System;
-namespace Assignment
+using System.Collections.Generic;
+
+namespace ObserverExample
 {
-    // Client
-    public class Client
+    public abstract class Observable
     {
-        public static void Main(string[] args)
+        private List<Observer> observers = new List<Observer>();
+        public void Attach(Observer observer)
         {
-            T target = new A();
-            target.fn1();
+            observers.Add(observer);
+        }
+
+        public void Detach(Observer observer)
+        {
+            observers.Remove(observer);
+        }
+
+        public void Notify()
+        {
+            foreach (Observer o in observers)
+            {
+                o.Update();
+            }
         }
     }
 
-    // Target
-    public class T
+    public class ConcreteObservable : Observable
     {
-        public virtual void fn1()
+        private string observableState;
+        public string ObservableState
         {
-            Console.WriteLine("Target fn1()");
+            get { return observableState; }
+            set { 
+                    observableState = value;
+                }
         }
     }
 
-    // Adapter
-    public class A : T
+    public abstract class Observer
     {
-        private Ad adaptee = new Ad();
-        public override void fn1()
-        {
-            adaptee.fn2();
-        }
+        public abstract void Update();
     }
 
-    // Adaptee
-    public class Ad
+    public class ConcreteObserver : Observer
     {
-        public void fn2()
+        private string name;
+        private string observerState;
+        private ConcreteObservable observable;
+
+        public ConcreteObserver(
+            ConcreteObservable observable, string name)
         {
-            Console.WriteLine("Adaptee fn2()");
+            this.observable = observable;
+            this.name = name;
+        }
+
+        public override void Update()
+        {
+            observerState = observable.ObservableState;
+            Console.WriteLine("Observer {0}'s new state is {1}",
+                name, observerState);
+        }
+
+        public class Program
+        {
+            public static void Main(string[] args)
+            {
+                ConcreteObservable s = new ConcreteObservable();
+                ConcreteObserver a = new ConcreteObserver(s, "Observer 1");
+                ConcreteObserver b = new ConcreteObserver(s, "Observer 2");
+                ConcreteObserver c = new ConcreteObserver(s, "Observer 3");
+
+                s.Attach(a);
+                s.Attach(b);
+                s.Attach(c);
+
+                s.Detach(c);
+
+                s.ObservableState = "LatestState";
+                s.Notify();
+            }
         }
     }
 }
