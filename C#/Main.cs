@@ -1,86 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace ObserverExample
+namespace Proxy.Example
 {
-    public abstract class Observable
+    public class Program
     {
-        private List<Observer> observers = new List<Observer>();
-        public void Attach(Observer observer)
+        public static void Main(string[] args)
         {
-            observers.Add(observer);
-        }
-
-        public void Detach(Observer observer)
-        {
-            observers.Remove(observer);
-        }
-
-        public void Notify()
-        {
-            foreach (Observer o in observers)
-            {
-                o.Update();
-            }
+            Proxy proxy = new Proxy();
+            proxy.Call();
         }
     }
 
-    public class ConcreteObservable : Observable
+    public abstract class Client
     {
-        private string observableState;
-        public string ObservableState
-        {
-            get { return observableState; }
-            set { 
-                    observableState = value;
-                }
-        }
+        public abstract void Call();
     }
 
-    public abstract class Observer
+    public class Target : Client
     {
-        public abstract void Update();
+        public override void Call()
+        {
+            Console.WriteLine("Invoked target's Call()");
+        }
     }
-
-    public class ConcreteObserver : Observer
+    
+    public class Proxy : Client
     {
-        private string name;
-        private string observerState;
-        private ConcreteObservable observable;
+        private Target target = new Target();
 
-        public ConcreteObserver(
-            ConcreteObservable observable, string name)
+        public override void Call()
         {
-            this.observable = observable;
-            this.name = name;
-        }
-
-        public override void Update()
-        {
-            observerState = observable.ObservableState;
-            Console.WriteLine("Observer {0}'s new state is {1}",
-                name, observerState);
-        }
-
-        public class Program
-        {
-            public static void Main(string[] args)
-            {
-                ConcreteObservable s = new ConcreteObservable();
-                
-                ConcreteObserver a = new ConcreteObserver(s, "Observer 1");
-                ConcreteObserver b = new ConcreteObserver(s, "Observer 2");
-                ConcreteObserver c = new ConcreteObserver(s, "Observer 3");
-
-                s.Attach(a);
-                s.Attach(b);
-                s.Attach(c);
-
-                s.Detach(c);
-
-                s.ObservableState = "LatestState";
-                s.Notify();
-            }
+            target.Call();
         }
     }
 }
