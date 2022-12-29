@@ -1,65 +1,36 @@
 using System;
 
-namespace Proxy.Structural
+namespace Proxy.Example
 {
-    /// <summary>
-    /// Proxy Design Pattern
-    /// </summary>
-
     public class Program
     {
         public static void Main(string[] args)
         {
-            // Create proxy and request a service
-
             Proxy proxy = new Proxy();
-            proxy.Request();
-
-            // Wait for user
-
-            Console.ReadKey();
+            proxy.Call();
         }
     }
 
-    /// <summary>
-    /// The 'Subject' abstract class
-    /// </summary>
-
-    public abstract class Subject
+    public abstract class Client
     {
-        public abstract void Request();
+        public abstract void Call();
     }
 
-    /// <summary>
-    /// The 'RealSubject' class
-    /// </summary>
-
-    public class RealSubject : Subject
+    public class Target : Client
     {
-        public override void Request()
+        public override void Call()
         {
-            Console.WriteLine("Called RealSubject.Request()");
+            Console.WriteLine("Invoked target's Call()");
         }
     }
-
-    /// <summary>
-    /// The 'Proxy' class
-    /// </summary>
-
-    public class Proxy : Subject
+    
+    public class Proxy : Client
     {
-        private RealSubject realSubject;
+        private Target target = new Target();
 
-        public override void Request()
+        public override void Call()
         {
-            // Use 'lazy initialization'
-
-            if (realSubject == null)
-            {
-                realSubject = new RealSubject();
-            }
-
-            realSubject.Request();
+            target.Call();
         }
     }
 }
