@@ -392,3 +392,39 @@ create nonclustered index NIX_product_order_city on prod_order(city, pin_code);
 
 drop index NIX_product_order_city on prod_order;
 drop index IX_product_order_customer_name on prod_order;
+
+create table employee (
+	id int primary key,
+	name varchar(200),
+	salary int,
+	gender varchar(10),
+	departId int
+)
+
+create table department (
+	departId int primary key,
+	deptName varchar(20)
+)
+
+insert into department values(1, 'IT'),
+(2, 'Payroll'),
+(3, 'HR'),
+(4, 'Admin');
+
+insert into employee values(1, 'Virat', 5000, 'Male', 1),
+(2, 'Rohit', 6000, 'Male', 2),
+(3, 'Pandaya', 7000, 'Male', 2),
+(4, 'Kapil', 3000, 'Male', 4);
+
+select * from department
+select * from employee
+
+select id, name, salary, deptName from employee join department on employee.departId = department.departId;
+
+select id, name, deptName from employee join department on employee.departId = department.departId;
+
+create view details
+as
+select id, name, deptName from employee join department on employee.departId = department.departId;
+
+select * from details
