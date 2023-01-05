@@ -343,7 +343,7 @@ select name, salary from emp where salary < 20000;
 select * from emp;
 drop table emp;
 
-create clustered index aone on emp(salary asc, gender desc);
+create clustered index aone on emp(salary asc);
 
 CREATE CLUSTERED INDEX CIX_EmpDetails_Salary
 ON emp(salary DESC);
@@ -428,3 +428,165 @@ as
 select id, name, deptName from employee join department on employee.departId = department.departId;
 
 select * from details
+
+create view lessdetails
+as
+select id, name, deptName from employee join department on employee.departId = department.departId where deptName = 'IT';
+
+select * from lessdetails
+
+drop view lessdetails
+
+select * from employee 
+where departId in (
+	select departId from department
+	where departId > 1
+);
+
+select * from prod_order;
+select * from customers;
+
+select * from prod_order
+where id in (
+	select id from customers
+	where id < 10
+);
+
+select * from customers
+where name in (
+	select cust_name from prod_order
+);
+
+select amount from prod_order
+where id in (
+	select id from customers
+	where age < 26
+);
+
+select id, amount from prod_order
+where id in (
+	select ID from customers
+	where ID < 10 and ID > 2
+);
+
+select cust_name, city from prod_order
+where id in (
+	select id from customers
+	where salary < 5000
+);
+
+select * from employee
+
+create function sal(@id int)
+	returns int
+	as 
+	begin
+	declare @ret int;
+	select @ret = salary from employee where id = @id;
+	return @ret;
+	end
+
+select dbo.sal(3)
+
+drop function sal
+
+select * from prod_order
+
+create function cityFinder(@id int)
+	returns varchar(20)
+	as 
+	begin
+	declare @ret varchar(20);
+	select @ret = city from prod_order where id = @id;
+	return @ret;
+	end
+
+select dbo.cityFinder(2)
+
+select * from customers;
+
+create function inLineFn()
+returns table
+as 
+return (select id, name from customers)
+
+drop function inLineFn
+
+select * from inLineFn()
+
+create function inLineFn2()
+returns table
+as 
+return (select id, cust_name, city from prod_order)
+
+select * from inLineFn2()
+
+/*
+select * from customers
+select * from prod_order
+select * from employee
+*/
+
+create function forProd()
+returns table
+as
+return (
+	select cust_name, city from prod_order
+	where id in (
+		select id from customers
+		where salary < 5000
+	)
+);
+
+select * from forProd();
+
+create function MSTVF()
+returns @Table Table(id int, name varchar(20))
+as
+begin
+	insert into @Table 
+	select id, name from employee
+	return
+end
+
+select * from MSTVF()
+
+create function MLCust()
+returns @Table Table(name varchar(20), age int)
+as
+begin
+	insert into @Table 
+	select name, age from customers
+	return
+end
+
+select * from MLCust()
+
+create procedure pro
+as
+begin 
+	select * from employee
+end
+
+execute pro
+
+drop procedure pro
+
+create procedure pro2
+@gen varchar(200)
+as
+begin
+	select * from employee where gender = @gen
+end
+
+exec pro2 'male'
+
+create procedure pro3
+@gen varchar(200),
+@dep int
+as
+begin
+	select * from employee where gender = @gen and departId = @dep
+end
+
+exec pro3 'male', 2
