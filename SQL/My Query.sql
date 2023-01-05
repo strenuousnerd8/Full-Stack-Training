@@ -590,3 +590,26 @@ begin
 end
 
 exec pro3 'male', 2
+
+create procedure pro4
+	@gen varchar(200),
+	@empcount int output
+as
+begin
+	select name, gender from employee where gender = @gen
+end
+
+declare @out int
+execute pro4 @empcount = @out out, @gen = 'male'
+
+create procedure pro5
+	@gen varchar(200),
+	@empcount int output
+as
+begin
+	select @empcount = count(id) from employee where gender = @gen
+end
+
+declare @out int
+execute pro5 @gen = 'male', @empcount = @out output
+print @out
