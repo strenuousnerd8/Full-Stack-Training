@@ -393,6 +393,9 @@ create nonclustered index NIX_product_order_city on prod_order(city, pin_code);
 drop index NIX_product_order_city on prod_order;
 drop index IX_product_order_customer_name on prod_order;
 
+use sn8
+go
+
 create table employee (
 	id int primary key,
 	name varchar(200),
@@ -613,3 +616,233 @@ end
 declare @out int
 execute pro5 @gen = 'male', @empcount = @out output
 print @out
+
+declare @out int
+	exec pro5
+		@gen = 'male',
+		@empcount = @out output
+print @out
+
+use Student
+go
+
+select * from employee
+
+create table empAudit (
+	id int identity(1, 1) primary key,
+	AuditData varchar(200)
+);
+
+create trigger trigger1
+on employee 
+for insert
+as
+begin
+	declare @Id int
+	select @Id = Id from inserted
+	insert into empAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is added ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+select * from empAudit
+
+drop trigger trigger1
+
+insert into employee values(11, 'aa', 5000, 'm' , 1)
+
+select * from prod_order
+
+create table orderAudit (
+	id int identity(1, 1) primary key,
+	AuditData varchar(200)
+);
+
+create trigger trigger2
+on prod_order
+for insert
+as
+begin
+	declare @Id int
+	select @Id = Id from inserted
+	insert into orderAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is added ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+select * from prod_order
+
+select * from orderAudit
+
+insert into prod_order values(234, 'Faizakki', 8236, 'Belagavi', 283311);
+insert into prod_order values(334, 'Faizakki', 8236, 'Belagavi', 283311);
+
+create trigger trigger3
+on employee
+for delete
+as
+begin
+	declare @Id int
+	select @Id = Id from deleted
+	insert into empAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is deleted ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+delete from employee where id=10 
+
+select * from empAudit
+
+create trigger trigger4
+on prod_order
+for delete
+as
+begin
+	declare @Id int
+	select @Id = Id from deleted
+	insert into orderAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is deleted ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+delete from prod_order where id = 5
+
+select * from orderAudit
+
+create trigger trigger5
+on prod_order
+for update
+as
+begin
+	declare @Id int
+	select @Id = Id from inserted
+	insert into orderAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is updated ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+drop trigger trigger5
+select * from prod_order
+
+update prod_order
+set cust_name = 'Angelina'
+where id = 2
+
+select * from orderAudit
+
+create trigger trigger6
+on employee
+for update
+as
+begin
+	declare @Id int
+	select @Id = Id from inserted
+	insert into empAudit
+	values (
+		'Id ' + cast(@Id as varchar(5)) 
+		+ ' is updated ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+select * from employee
+
+update employee
+set name = 'hey'
+where id = 1
+
+select * from empAudit
+
+create trigger trigger7
+on database
+for alter_table
+as
+begin
+	insert into dbAudit
+	values (
+		'A table'
+		+ ' is altered ' 
+		+ cast(getdate() as varchar(20))
+	)
+end
+
+ALTER TABLE employee
+add newcolumn varchar(10)
+
+disable trigger trigger7 on database
+go
+
+enable trigger trigger7 on database
+go
+
+select * from empAudit
+select * from dbAudit
+create table dbAudit (
+	id int identity(1, 1) primary key,
+	AuditData varchar(200)
+);
+
+create trigger trigger8
+on database
+for create_table
+as
+begin
+    insert into dbAudit
+    values (
+        'A table'
+        + ' is created ' 
+        + cast(getdate() as varchar(20))
+    )
+end
+
+create table newTab (
+	name varchar(20)
+);
+
+select * from dbAudit
+
+create trigger trigger9
+on database
+for drop_table
+as
+begin
+    insert into dbAudit
+    values (
+        'A table'
+        + ' is deleted ' 
+        + cast(getdate() as varchar(20))
+    )
+end
+
+drop table newTab
+
+select * from dbAudit
+
+/*
+create trigger trigger10
+on all server
+for logon
+as 
+begin
+    insert into dbAudit
+    values (
+        'Logged in ' 
+        + cast(getdate() as varchar(20))
+    )
+end
+*/

@@ -1,0 +1,155 @@
+use sn8
+
+show collections
+
+drop database
+
+show collections
+
+db.Training.drop()
+
+show collections
+
+db.createCollection('IntroMongo')
+
+show collections
+
+use IntroMongo
+
+db.MongoData.deleteMany({})
+
+db.MongoData.insertMany([
+    {
+       title: "Jurassic World: Fallen Kingdom",
+       genres: [ "Action", "Sci-Fi" ],
+       runtime: 130,
+       rated: "PG-13",
+       year: 2018,
+       directors: [ "J. A. Bayona" ],
+       cast: [ "Chris Pratt", "Bryce Dallas Howard", "Rafe Spall" ],
+       type: "movie"
+     },
+     {
+       title: "Tag",
+       genres: [ "Comedy", "Action" ],
+       runtime: 105,
+       rated: "R",
+       year: 2018,
+       directors: [ "Jeff Tomsic" ],
+       cast: [ "Annabelle Wallis", "Jeremy Renner", "Jon Hamm" ],
+       type: "movie"
+     }
+ ])
+
+db.MongoData.insertOne({name: 'Faiz', username: 'sn8', mobile: 2983451855})
+
+db.MongoData.update({username : 'strenuousnerd8'}, {$set : {username: 'sn8'}}, {upsert : true});
+
+db.MongoData.find().pretty()
+
+db.MongoData.find({title: 'Tag'})
+
+db.MongoData.find({$and: [{year: 2018}, {runtime: 105}]}).pretty()
+
+db.MongoData.find({$or: [{year: 2018}, {runtime: 105}]}).pretty()
+
+db.MongoData.find({runtime: {$gt: 110}, $or: [{year: 2018}, {runtime: 105}]}).pretty()
+
+db.MongoData.insertMany([
+     {
+         "name": "Everest",
+         "height": 8848,
+         "location": ["Nepal", "China"],
+         "ascents": {
+             "first": {
+                 "year": 1953
+             },
+             "first_winter": {
+                 "year": 1980
+             },
+             "total": 5656
+         }
+     },
+     {
+         "name": "K2",
+         "height": 8611,
+         "location": ["Pakistan", "China"],
+         "ascents": {
+             "first": {
+                 "year": 1954
+             },
+             "first_winter": {
+                 "year": 1921
+             },
+             "total": 306
+         }
+     },
+     {
+         "name": "Kangchenjunga",
+         "height": 8586,
+         "location": ["Nepal", "India"],
+         "ascents": {
+             "first": {
+                 "year": 1955
+             },
+             "first_winter": {
+                 "year": 1986
+             },
+             "total": 283
+         }
+     },
+     {
+         "name": "Lhotse",
+         "height": 8516,
+         "location": ["Nepal", "China"],
+         "ascents": {
+             "first": {
+                 "year": 1956
+             },
+             "first_winter": {
+                 "year": 1988
+             },
+             "total": 461
+         }
+     },
+     {
+         "name": "Makalu",
+         "height": 8485,
+         "location": ["China", "Nepal"],
+         "ascents": {
+             "first": {
+                 "year": 1955
+             },
+             "first_winter": {
+                 "year": 2009
+             },
+             "total": 361
+         }
+     }
+])
+
+db.MongoData.find({name: 'Makalu'})
+
+db.MongoData.find({name: {$ne: 'Makalu'}})
+
+db.MongoData.find({name: {$in: ['K2', 'Makalu']}})
+
+db.MongoData.find({height: {$gt: 8500}})
+
+db.MongoData.find({name: 'Everest', height: 8848})
+
+db.MongoData.find({$and: [{name: "Everest"}, {height: 8848}]})
+
+db.MongoData.find({$or: [{name: "Everest"}, {name: "K2"}]})
+
+db.MongoData.find({location: "Nepal"})
+
+db.MongoData.find({location: ["Nepal", "China"]})
+
+db.MongoData.find({location: ["China", "Nepal"]})
+
+db.MongoData.find({location: {$all: ["Nepal", "China"]}})
+
+db.MongoData.find({'ascents.total': {$gt: 1000}})
+
+db.MongoData.find({'ascents.first_winter.year': {$gt: 2000}})
