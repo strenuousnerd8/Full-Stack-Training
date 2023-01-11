@@ -21,3 +21,24 @@ function anotherfn(x1, x2, x3 =200) {
 
 anotherfn(2, 3, 4)
 anotherfn(3, 4)
+
+// JavaScript Hoisting
+hello()
+function hello() {
+    console.log('Hola')
+}
+
+var x
+x = 10
+console.log(x)
+
+// Self-Invoking Function
+(function() {
+    console.log('Inside IIEF');
+})()
+
+function lastfn() {
+    console.log('How\'s this!')
+}
+
+lastfn()
