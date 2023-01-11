@@ -18,9 +18,9 @@ var a = (...rest) => {
     var sum = 0;
     rest.forEach(function(number)
     {
-        sum += number;     
+        sum += number;
     });
-    return sum;
+    return sum
 }
 
 console.log(
@@ -28,7 +28,7 @@ console.log(
     a(1, 2, 3)
 )
 
-// Using Arrow function with rest params and default param
+// Using Arrow function with rest params, default param and anonymous function
 var b = (...[rest = [1, 2, 3, 4]]) => {
     var sum = 0;
     rest.forEach(function(number)
