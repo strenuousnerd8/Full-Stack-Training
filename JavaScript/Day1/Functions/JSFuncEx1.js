@@ -15,7 +15,7 @@ x = fn(2)
 console.log(x)
 
 // Default Parameters
-function anotherfn(x1, x2, x3 =200) {
+function anotherfn(x1, x2, x3 = 200) {
     console.log("Inside another function ", x1, x2, x3)
 }
 
