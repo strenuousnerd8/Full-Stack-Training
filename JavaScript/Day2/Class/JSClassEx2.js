@@ -25,7 +25,6 @@ class E extends D {
 
     fn() {
         console.log("Inside E's function", this.a, this.b)
-        super.fn2()
     }
 
     fn2() {
