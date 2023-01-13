@@ -18,6 +18,7 @@
   "homepage": "https://github.com/strenuousnerd8/Full-Stack-Training#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "url": "^0.11.0"
   }
 }
