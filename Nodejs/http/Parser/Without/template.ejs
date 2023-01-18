@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form data parsing</title>
+</head>
+<body>
+    <form action='information' method='POST'>
+        <div>
+            <label id='username'>Username</label>
+            <div>
+                <input type='text' for='username'
+                    placeholder='Username'
+                    name='username'>
+            </div>
+        </div>
+        <div>
+            <label id='email'>Email</label>
+            <div>
+                <input type='text' for='email'
+                    placeholder='Email' name='email'>
+            </div>
+        </div>
+        <div>
+            <label id='password'>Password</label>
+            <div>
+                <input type='password' for='password'
+                    placeholder='Password'
+                    name='password'>
+            </div>
+        </div>
+        <div>
+            <label id='confirmPassword'>
+                Confirm Password
+            </label>
+            <div>
+                <input type='password'
+                    for='confirmPassword'
+                    placeholder='Confirm Password'
+                    name='confirmPassword'>
+            </div>
+        </div>
+        <div>
+            <label>Sex:
+                <label>
+                    <input type='radio'
+                        name='sex' value='Male'>
+                    Male
+                </label>
+                <label>
+                    <input type='radio'
+                        name='sex' value='Female'>
+                    Female
+                </label>
+            </label>
+        </div>
+        <div class='buttons'>
+            <button>Register</button>
+        </div>
+    </form>
+</body>
+</html>

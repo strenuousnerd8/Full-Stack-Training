@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/strenuousnerd8/Full-Stack-Training#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20",
     "url": "^0.11.0"
   }
