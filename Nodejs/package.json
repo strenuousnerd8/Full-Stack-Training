@@ -23,5 +23,9 @@
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
   }
 }
