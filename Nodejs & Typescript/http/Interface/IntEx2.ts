@@ -11,7 +11,7 @@ namespace nodejs {
 
     function fn2(x1: number, x2: number): number {
         let x3 = x1 + 3000
-        console.log("Inside fn3", x1, x2, x3)
+        console.log("Inside fn2", x1, x2, x3)
         return 200
     }
 
