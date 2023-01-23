@@ -46,12 +46,7 @@
       <label for="checkbox5">Five</label>
       <p>checked: {{mchecked}}</p>
 
-      <br />
       <button @click="fn">Greet</button>
-      &nbsp;
-      <button @click="say('hiii !')">Say Hi</button>
-      &nbsp;
-      <button @click="say('whatt ?')">Say What</button>
   </div>
 </template>
 <script>
@@ -73,16 +68,13 @@ export default {
       if(event) {
         alert(event.target.tagName)
       }
-    },
-    say(message) {
-      alert(message)
     }
   }
 }
 </script>
 <style>
   * {
-    font-family: 'consolas';
+    font-family: 'Segoe UI semilight', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
   }
   body, #app1, input {
@@ -91,7 +83,7 @@ export default {
   }
   input {
     border-radius: 10px;
-    border: none;
+    border-color: #3a6073;
   }
   #app1 {
     color: black;
@@ -108,11 +100,6 @@ export default {
   }
   h1:first-letter {
       text-transform: uppercase;
-  }
-  h5 {
-    font-family: 'rage';
-    font-size: large;
-    
   }
   select, option {
     color: black
@@ -131,9 +118,5 @@ export default {
   }
   input[type="checkbox"]:checked {
     color: white;
-  }
-  button, select {
-    border-radius: 10px;
-    border: none;
   }
 </style>
