@@ -1,40 +1,63 @@
+<template>
+  <div id="app1">
+    <button @click="y = !y">Switch!</button>
+    <h2 v-if="y">Y is true</h2>
+    <h2 v-else>Y is false</h2>
+
+    <hr>
+
+    <h3 v-if='x === 0'>
+      Number is 0
+    </h3>
+    <h3 v-else-if='x > 0'>
+      Number is positive
+    </h3>
+    <h3 v-else-if='x < 0'>
+      Number is negative
+    </h3>
+    <h3 v-else>
+      Not a number
+    </h3>
+
+    <hr>
+
+    <ul>
+      <li v-for="item in z" :key="item">
+        {{item}}
+      </li>
+    </ul>
+
+    <ul>
+      <li v-for="(z1, z2) in p" :key="z1">
+        {{ z2 }} : {{ z1 }}
+      </li>
+    </ul>
+
+  </div>
+</template>
 <script>
-import Home from './components/HomeComp.vue'
-import About from './components/AboutComp.vue'
-import NotFound from './components/NotFound.vue'
- 
-const routes = {
-  '/': Home,
-  '/about': About
-}
- 
 export default {
-  data() {
-    return {
-      currentPath: window.location.hash
+    data() {
+      return {
+        x: "",
+        y: true,
+        z: ['This', 'is', 'an', 'unordered', 'list'],
+        p: [
+          {
+            a1: "AA",
+            a2: "BB",
+            a3: "CC"
+          },
+          {
+            a1: "DD",
+            a2: "EE",
+            a3: "FF"
+          }
+        ]
+      }
     }
-  },
-  computed: {
-    currentView() {
-      return routes[this.currentPath.slice(1) || '/'] || NotFound
-    }
-  },
-  mounted() {
-    window.addEventListener('hashchange', () => {
-          this.currentPath = window.location.hash
-        })
-  }
 }
 </script>
- 
-<template>
-<div id="app1">
-<a href="#/">Home</a> |
-<a href="#/about">About</a> |
-<a href="#/non-existent-path">Broken Link</a>
-<component :is="currentView" />
-</div>
-</template>
 <style>
   * {
     font-family: 'consolas';
