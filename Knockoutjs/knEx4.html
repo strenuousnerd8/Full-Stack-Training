@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/main.css">
+    <title>Knockout Session</title>
+    <script src="https://knockoutjs.com/downloads/knockout-3.5.1.js"></script>
+</head>
+<body>
+    <div id="app1">
+        <h2>Friends List</h2>
+        Here are the Friends from your contact page:
+        <div data-bind="template: { name: 'friend-template', foreach: friends }"></div>
+
+        <script type="text/html" id="friend-template">
+            <h3 data-bind="text: name"></h3>
+            <p>Contact Number: <span data-bind="text: contactNumber"></span></p>
+            <p>Email-id: <span data-bind="text: email"></span></p>
+        </script>
+    </div>
+    <script>
+        function MyViewModel() {
+            this.friends = [
+                {
+                    name: 'Smith',
+                    contactNumber: 4556750345,
+                    email: 'smith123@gmail.com'
+                },
+                {
+                    name: 'Jack',
+                    contactNumber: 3453454213,
+                    email: 'jack123@gmail.com'
+                },
+                {
+                    name: 'Lisa',
+                    contactNumber: 8768563553,
+                    email: 'lisa343@gmail.com'
+                }
+            ]
+        }
+
+        var vm = new MyViewModel()
+        ko.applyBindings(vm)
+    </script>
+</body>
+</html>

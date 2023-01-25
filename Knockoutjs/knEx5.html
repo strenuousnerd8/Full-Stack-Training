@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/main.css">
+    <title>Knockout Session</title>
+    <script src="https://knockoutjs.com/downloads/knockout-3.5.1.js"></script>
+
+</head>
+<body>
+    <div id="app1">
+        <h2>Friends List</h2>
+        Here are the Friends List from My contact page:
+        <div data-bind = "template: { name: 'friend-template', data: friend1 }"></div>
+        <div data-bind = "template: { name: 'friend-template', data: friend2 }"></div>
+        <div data-bind = "template: { name: 'friend-template', data: friend3 }"></div>
+
+        <script type = "text/html" id = "friend-template">
+            <h3 data-bind = "text: name"></h3>
+            <p>Contact Number: <span data-bind = "text: contactNumber"></span></p>
+            <p>Email-id: <span data-bind = "text: email"></span></p>
+        </script>
+    </div>
+    <script type = "text/javascript">
+       function MyViewModel()
+        {
+          this.friend1 = {name: 'Prashant',contactNumber: 9256750345,email: 'prashant@gmail.com'};            
+          this.friend2 = {name: 'Satyam',contactNumber: 7839358001,email: 'satyamvrm22@gmail.com'};
+          this.friend3 = {name: 'Faiz',contactNumber: 8765432897,email: 'faizakkiwat@gmail.com'};
+        }
+
+       var vm = new MyViewModel();
+       ko.applyBindings(vm);
+    </script>
+</body>
+</html>
