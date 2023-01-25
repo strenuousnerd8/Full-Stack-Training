@@ -1,0 +1,79 @@
+  * {
+    font-family: 'consolas';
+    text-align: center;
+  }
+  body, #app1, input {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: aliceblue;
+  }
+  input {
+    border-radius: 10px;
+    border: none;
+    transition: border-radius 1s;
+    width: 20vw;
+    height: 5vh;
+  }
+  input:hover {
+    border-radius: 3px;
+  }
+  li {
+    text-align: left;
+  }
+  #app1 {
+    color: black;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    padding: 10px;
+  }
+  h1 {
+    text-transform: lowercase;
+  }
+  h1:first-letter {
+      text-transform: uppercase;
+  }
+  h1, h2, h3, h4, h6 {
+    font-family: 'rage';
+  }
+  h5 {
+    font-family: 'rage';
+    font-size: large;
+    
+  }
+  select, option {
+    color: white;
+    overflow: visible;
+    border-radius: 3px;
+    margin-top: 1px;
+  }
+  p {
+    font-size: 10px;
+  }
+  select option {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  #msel {
+    overflow: hidden;
+  }
+  option {
+    background: #414345;
+  }
+  input[type=checkbox] {
+    width: 20px;
+  }
+  input[type="checkbox"]:checked {
+    color: white;
+  }
+  button, select {
+    border-radius: 10px;
+    border: none;
+  }
+  select {
+    background: transparent;
+  }
+  img {
+    border-radius: 10px;
+  }

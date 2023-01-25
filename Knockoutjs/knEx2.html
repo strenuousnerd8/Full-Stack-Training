@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/main.css">
+    <title>Knockout Session</title>
+    <script src="https://knockoutjs.com/downloads/knockout-3.5.1.js"></script>
+</head>
+<body>
+    <div>
+        <form data-bind="submit: addItem">
+            New item:
+            <input data-bind='value: itemsToAdd, valueUpdate: "afterkeydown"' />
+            <button type="submit" data-bind="enable: itemsToAdd().length > 0"><span style="font-family: 'rage'">Add</span></button>
+            <p>Your items:</p>
+            <select id="for" multiple="multiple" width="50" data-bind="options: items"></select>
+        </form>
+    </div>
+    <script>
+        var SimpleListModel = function(items) {
+            this.items = ko.observableArray(items)
+            this.itemsToAdd = ko.observable("")
+            this.addItem = function() {
+                if (this.itemsToAdd != "") {
+                    this.items.push(this.itemsToAdd())
+                    this.itemsToAdd("")
+                }
+            }.bind(this)
+        }
+        ko.applyBindings(new SimpleListModel(["Alpha", "Beta", "Gamma"]))
+    </script>
+</body>
+</html>

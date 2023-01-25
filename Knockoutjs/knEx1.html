@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/main.css">
+    <title>Knockout Session</title>
+    <script src="https://knockoutjs.com/downloads/knockout-3.5.1.js"></script>
+</head>
+<body>
+    <div id="app1">
+        <p>First Name: 
+            <input data-bind="value: firstName">
+        </p>
+        <p>Last Name: 
+            <input data-bind="value: lastName">
+        </p>
+        <h2>
+            Hello, <span data-bind="text: fullName"></span>💜
+        </h2>
+    </div>
+    <script>
+        var viewModel = function(first, last) {
+            this.firstName = ko.observable(first)
+            this.lastName = ko.observable(last)
+            this.fullName = ko.pureComputed(function() {
+                return this.firstName() + " " + this.lastName()
+            }, this)
+        }
+        ko.applyBindings(new viewModel("Faiz", "Akki"))
+    </script>
+</body>
+</html>
