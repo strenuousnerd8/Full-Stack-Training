@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+<style>
+    .wrapper {
+        position: relative;
+    }
+
+    .dashed-box {
+        position: relative;
+        z-index: 1;
+        border: dashed;
+        height: 8em;
+        margin-bottom: 1em;
+        margin-top: 2em;
+    }
+    .gold-box {
+        position: absolute;
+        z-index: 3; 
+        background: gold;
+        width: 80%;
+        left: 60px;
+        top: 3em;
+    }
+    .green-box {
+        position: absolute;
+        z-index: 2; 
+        background: lightgreen;
+        width: 20%;
+        left: 65%;
+        top: -25px;
+        height: 7em;
+        opacity: 0.9;
+    }
+
+    img.one {
+        position: absolute;
+        height: auto;
+        width: 25%;
+        z-index: -1;
+    }
+    img.two {
+        position: absolute;
+        height: auto;
+        width: 25%;
+        z-index: 0;
+        top: 50px;
+        left: 50px;
+    }
+    img.three {
+        position: absolute;
+        height: auto;
+        width: 25%;
+        z-index: 1;
+        top: 100px;
+        left: 100px;
+    }
+    img.four {
+        position: absolute;
+        height: auto;
+        width: 25%;
+        z-index: 2;
+        top: 150px;
+        left: 150px;
+    }
+    h1 {
+        color: white;
+        position: absolute;
+        top: 85px;
+        left: 120px;
+        z-index: 3;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="dashed-box">Dashed box</div>
+            <div class="gold-box">Gold box</div>
+            <div class="green-box">Green box</div>
+          </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="wrapper">
+            <img src="./res/flycat.webp" class="one" alt="">
+            <img src="./res/flycat.webp" class="two" alt="">
+            <img src="./res/flycat.webp" class="three" alt="">
+            <img src="./res/flycat.webp" class="four" alt="">
+            <h1>This is fun!</h1>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
