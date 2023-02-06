@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+</head>
+<script>
+    $(document).ready(function() {
+        $("#btn1").click(function() {
+            $("#test1").text(function(i, origTest) {
+                return "Old text: " + origTest + " New text: Hello world! (index: " + i + " )"
+            })
+        })
+        $("#btn2").click(function() {
+            $("#test2").html(function(i, origTest) {
+                return "Old html: " + origTest + " New html: Hello <b>world!</b> (index: " + i + " )"
+            })
+        })
+    })
+</script>
+<body>
+    <p id="test1">
+        This is a <b>bold</b> paragraph
+    </p>
+    <p id="test2">
+        This is another <b>bold</b> paragraph
+    </p>
+
+    <button id="btn1">Show Old/New Text</button>
+    <button id="btn2">Show Old/New HTML</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
