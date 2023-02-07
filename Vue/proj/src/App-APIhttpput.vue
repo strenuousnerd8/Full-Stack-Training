@@ -11,12 +11,15 @@ export default {
   methods: {
     updatePost() {
       fetch('https://jsonplaceholder.typicode.com/posts/1',{
-        method:  'PATCH',
+        method:  'PUT',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          title: 'New post title'
+          userId: 1,
+          id:     1,
+          title:  'New post title',
+          body:   'Lorem ipsum dolor sit amet'
         })
       })
         .then(response => response.json())
