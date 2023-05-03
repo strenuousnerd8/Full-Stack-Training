@@ -1,2 +1,2 @@
 # Full-Stack-Training
-Practicing my current topics/assignments given for full-stack training.
+All the topics/assignments given in my full-stack training.
